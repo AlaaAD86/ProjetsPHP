@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(112, 13, 0);
+   
+}
+header{
+    display: flex;
+    flex-flow: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 32%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: left;
+}
+
+ul {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: left;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+.forms {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formOne {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-flow: row;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.formTwo {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-flow: row;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.formOne input {
+    padding-left: 1em;
+}
+
+button {
+    padding: .5em;
+    margin: .5em;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(192, 180, 195);
+    align-self: center;
+    margin: .5em;
+    padding: 1em;
+    width: 4em;
+}
+
+.signuplink {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    background-color: rgb(92, 92, 92);
+}
+
+p {
+    margin-top: 1%;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center ;
+    background-color: darkgray;
+}
+
+.sign-up-form {
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.sign-up-form form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form form input {
+    padding: 1em;
+    margin: .5em;
+}

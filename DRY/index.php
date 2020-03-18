@@ -1,0 +1,1 @@
+<?php header("Location: templates/pages/accueil.php"); ?>
